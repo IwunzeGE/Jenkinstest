@@ -13,5 +13,12 @@ pipeline {
                 sh "echo 'Testing Project'"
             }
         }
+
+        stage("QA phase") {
+            steps {
+                sh "echo 'QA phases for the project'"
+            }
+        }
+
     }
 }
